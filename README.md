@@ -1,1 +1,1 @@
-# kaguyasama love and war
+# kaguyasama love and war.
