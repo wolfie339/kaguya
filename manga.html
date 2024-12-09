@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manga World</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+
+    /* Manga Container */
+    .manga-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    /* Manga Card */
+    .manga-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .manga-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .manga-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .manga-card h2 {
+      font-size: 1.5rem;
+      margin: 10px;
+    }
+
+    .manga-card p {
+      font-size: 0.9rem;
+      margin: 0 10px 10px;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #6c5ce7;
+      color: #fff;
+      margin-top: 20px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manga World</h1>
+    <p>Your favorite mangas in one place!</p>
+  </header>
+  
+  <div class="manga-container">
+    <!-- Manga Card 1 -->
+    <div class="manga-card">
+      <img src="https://via.placeholder.com/250x300" alt="Manga 1">
+      <h2>Manga Title 1</h2>
+      <p>A brief description of Manga 1.</p>
+    </div>
+    <!-- Manga Card 2 -->
+    <div class="manga-card">
+      <img src="https://via.placeholder.com/250x300" alt="Manga 2">
+      <h2>Manga Title 2</h2>
+      <p>A brief description of Manga 2.</p>
+    </div>
+    <!-- Manga Card 3 -->
+    <div class="manga-card">
+      <img src="https://via.placeholder.com/250x300" alt="Manga 3">
+      <h2>Manga Title 3</h2>
+      <p>A brief description of Manga 3.</p>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+  <!-- Manga Card 4 -->
+  <div class="manga-card">
+    <img src="https://via.placeholder.com/250x300" alt="Manga 4">
+    <h2>Manga Title 4</h2>
+    <p>A brief description of Manga 4.</p>
+  </div>
+  <!-- Add more cards as needed -->
+</div>
+<!-- Manga Card 5 -->
+<div class="manga-card">
+  <img src="https://via.placeholder.com/250x300" alt="Manga 5">
+  <h2>Manga Title 5</h2>
+  <p>A brief description of Manga 5.</p>
+</div>
+<!-- Add more cards as needed -->
+</div>
+<!-- Manga Card 6 -->
+<div class="manga-card">
+  <img src="https://via.placeholder.com/250x300" alt="Manga 6">
+  <h2>Manga Title 6</h2>
+  <p>A brief description of Manga 6.</p>
+</div>
+<!-- Add more cards as needed -->
+</div>
+
+  <footer>
+    <p>&copy; 2024 Manga World. Created with ❤ by <a href="#">Your Name</a>.</p>
+  </footer>
+</body>
+</html>
